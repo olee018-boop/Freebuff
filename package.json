@@ -1,0 +1,16 @@
+{
+  "name": "web-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-dependency HTTP/HTTPS forward proxy with a browser dashboard, ready for GitHub Codespaces.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
